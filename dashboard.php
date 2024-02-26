@@ -35,6 +35,10 @@
                   <a class="nav-link" href="forms.php"><button type="button" class="btn btn-primary">Forms</button></a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="notice.php"><button type="button" class="btn btn-primary">Add Notice</button></a>
+                </li>
+                
+                <li class="nav-item">
                   <a class="nav-link" href="add_event.html"><button type="button" class="btn btn-primary">Add Events</button></a>
                 </li>
                 <li class="nav-item">
@@ -60,7 +64,7 @@
 
 
 include "connect.php";
-$query = "SELECT * FROM `member` ORDER BY `id` DESC;" ;
+$query = "SELECT * FROM `member` ORDER BY `id`;" ;
 
 $result = mysqli_query($conn,$query);
 
@@ -78,7 +82,7 @@ if(mysqli_num_rows($result)>0) {
            <p class='card-text fw-bold'>Date of Birth :- {$rows['birthdate']}</p>
            <p class='card-text fw-bold'>Contact :- {$rows['phone']}</p>
            <p class='card-text fw-bold'>Email :- {$rows['Email']}</p>
-           <p class='card-text fw-bold'>Password :- {$rows['password']}</p>
+           <p class='card-text fw-bold'>Vaaar Id :- {$rows['vid']}</p>
            <p class='card-text fw-bold'>Address :- {$rows['address']}</p>
            <a name='' id='' class='btn btn-warning mx-1' href='edit_member.php?id={$rows['id']}' role='button'>edit</a>
 

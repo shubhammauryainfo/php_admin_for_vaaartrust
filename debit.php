@@ -25,8 +25,7 @@
         <nav class="pt-3">
           
             <ul class="nav justify-content-center">
-               
-                <li class="nav-item">
+               <li class="nav-item">
                   <a class="nav-link" href="dashboard.php"><button type="button" class="btn btn-primary">Dashboard</button></a>
                 </li>
                 <li class="nav-item">

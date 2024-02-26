@@ -19,9 +19,9 @@ $dob = $_POST["dob"];
 $Email=$_POST["email"];
 $address = $_POST["address"];
 $contact = $_POST["phone"];
-$pass =$_POST["password"];
+$vid =$_POST["vid"];
 
-$sql ="UPDATE `member` SET `first_name`='$name',`sur_name`='$lname',`gender`='$gender',`phone`='$contact',`Email`='$Email',`password`='$pass',`birthdate`='$dob',`address`='$address' WHERE `id`='$id'";
+$sql ="UPDATE `member` SET `first_name`='$name',`sur_name`='$lname',`gender`='$gender',`phone`='$contact',`Email`='$Email',`vid`='$vid',`birthdate`='$dob',`address`='$address' WHERE `id`='$id'";
 
 mysqli_query($conn,$sql);
 

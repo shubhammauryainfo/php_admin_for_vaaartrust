@@ -97,8 +97,8 @@ $rows = mysqli_fetch_array($result);
                 <input type="email" class="form-control" name="email" value="<?php echo"{$rows['Email']}"; ?>"  required>
             </div>
             <div class="col-md-6 mt-md-0 mt-3">
-                <label>Password</label>
-                <input type="text" class="form-control" name="password" value="<?php echo"{$rows['password']}"; ?>"  required>
+                <label>Vaaar Id</label>
+                <input type="text" class="form-control" name="vid" value="<?php echo"{$rows['vid']}"; ?>"  required>
             </div>
         </div>
         

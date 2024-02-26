@@ -35,6 +35,9 @@
                   <a class="nav-link" href="forms.php"><button type="button" class="btn btn-primary">Forms</button></a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="notice.php"><button type="button" class="btn btn-primary">Add Notice</button></a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="add_event.html"><button type="button" class="btn btn-primary">Add Events</button></a>
                 </li>
                 <li class="nav-item">
